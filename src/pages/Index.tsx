@@ -164,10 +164,7 @@ function Index() {
                   size="lg" 
                   variant="outline" 
                   className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
-                >
-                  <Icon name="Phone" className="mr-2" size={20} />
-                  +7 (495) 123-45-67
-                </Button>
+                >+7 (938) 555-87-47</Button>
               </div>
 
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
