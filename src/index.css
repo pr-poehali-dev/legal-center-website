@@ -123,4 +123,58 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  .business-bg-pattern {
+    background-image:
+      url("/img/71e13de5-8757-4ee3-9995-16d0988f6e5f.jpg"),
+      linear-gradient(
+        135deg,
+        rgba(27, 54, 93, 0.95) 0%,
+        rgba(44, 82, 130, 0.9) 50%,
+        rgba(201, 169, 110, 0.85) 100%
+      );
+    background-size:
+      cover,
+      100% 100%;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: overlay;
+  }
+
+  .legal-pattern-bg {
+    background-image: url("/img/fad938e3-0c4f-43a5-8a01-75c1d57fa465.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .section-with-pattern {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section-with-pattern > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@layer components {
+  .gradient-navy-gold {
+    background: linear-gradient(135deg, #1b365d 0%, #2c5282 50%, #c9a96e 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #c9a96e 0%, #e6c78a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }

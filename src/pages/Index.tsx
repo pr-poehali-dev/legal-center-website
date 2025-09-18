@@ -134,7 +134,7 @@ function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-16 bg-gradient-navy-gold text-white">
+      <section className="pt-16 business-bg-pattern text-white">
         <div className="container mx-auto px-4 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -193,7 +193,8 @@ function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-muted/30">
+      <section id="services" className="py-20 bg-muted/30 section-with-pattern">
+        <div className="legal-pattern-bg"></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Наши услуги</h2>
@@ -228,7 +229,8 @@ function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20">
+      <section id="about" className="py-20 section-with-pattern">
+        <div className="legal-pattern-bg"></div>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
