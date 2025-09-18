@@ -363,7 +363,7 @@ function Index() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <Icon name="MapPin" size={16} />
-                  <span>Москва, ул. Тверская, 15</span>
+                  <span>Краснодар, ул. Красная, 81</span>
                 </li>
               </ul>
             </div>
